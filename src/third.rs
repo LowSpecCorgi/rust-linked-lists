@@ -1,5 +1,5 @@
 // Persistent list
-use std::{rc::Rc, sync::Arc};
+use std::rc::Rc;
 
 pub struct List<T> {
     head: Link<T>,
